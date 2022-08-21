@@ -4,9 +4,14 @@ fun main() {
     var correctResult = RandomOne()
     correctResult.showCorrectResult1()
 
-    var wrongResul1 = RandomSecond()
-    wrongResul1.showWrongResult1()
-    wrongResul1.showWrongResult2()
-    wrongResul1.showWrongResult3()
+    println("* * * * * * * * *")
+    correctResult.showOverride(9,5)
+    correctResult.superShowSuper()
+    println("* * * * * * * * *")
+
+    var wrongResult1 = RandomSecond()
+    wrongResult1.showWrongResult1()
+    wrongResult1.showWrongResult2()
+    wrongResult1.showWrongResult3()
 
 }

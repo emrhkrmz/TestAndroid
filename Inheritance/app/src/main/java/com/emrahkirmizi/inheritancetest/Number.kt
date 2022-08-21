@@ -20,4 +20,14 @@ open class Number {
         println(number1)
         println(number2)
     }
+
+    open fun showOverride(numberOne: Int, numberTwo: Int) {
+        println(numberOne)
+        println(numberTwo)
+    }
+
+    open fun showSuper(numberThree: Int, numberFour: Int) {
+        println(numberThree)
+        println(numberFour)
+    }
 }

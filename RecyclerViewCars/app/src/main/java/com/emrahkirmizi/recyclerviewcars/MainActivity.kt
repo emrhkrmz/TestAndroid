@@ -25,18 +25,18 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
 
         carsNameList.add("Skoda")
-        carsNameList.add("Mercedes")
         carsNameList.add("Volkswagen")
+        carsNameList.add("Mercedes")
         carsNameList.add("Ford")
 
         detailsList.add("This is the Skoda Fabia")
-        detailsList.add("This is the Mercedes A200")
         detailsList.add("This is the Volkswagen Jetta")
+        detailsList.add("This is the Mercedes A200")
         detailsList.add("This is the Ford Focus")
 
         imageList.add(R.drawable.skoda)
-        imageList.add(R.drawable.mercedes)
         imageList.add(R.drawable.volkswagen)
+        imageList.add(R.drawable.mercedes)
         imageList.add(R.drawable.ford)
 
         adapter = CarsAdapter(carsNameList,detailsList,imageList,this@MainActivity)
